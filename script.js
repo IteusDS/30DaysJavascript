@@ -1,3 +1,5 @@
+/* Comecei do 5° dia, devido os projetos iniciais serem bem simples */
+
 var dataCompleta = undefined;
 
 var horaAtual= undefined;
@@ -9,3 +11,4 @@ if(horaAtual < 12) {
     } else {
         alert("Boa noite")
     }
+/* Fim do 5° Dia */
