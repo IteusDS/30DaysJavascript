@@ -43,7 +43,7 @@ switch(diaDaSemana) {
 }
 console.log("Hoje é " + diaDaSemanaExtenso + ".") */
 
-/* DIA 18 */
+/* DIA 18 
 
 var continuar ="S";
 var animalExibir;
@@ -86,4 +86,28 @@ var animais = new Array(4);
     }
 
     console.clear();
-    console.log("Obrigado");
+    console.log("Obrigado"); */
+
+    /*Aula 19 */
+    var nomeCurso =  prompt("Informe o nome do curso", "Digite aqui");
+    var codigoCurso = prompt("Informe o código do curso", "Digite aqui");
+    var novoConteudo = "S";
+    var conteudoTemp ="";
+    var conteudoCurso = [];
+    var contador = 0;
+
+    while(novoConteudo == "S") {
+        conteudoTemp = prompt("Informe o conteúdo do cuso", "Digite aqui");
+        conteudoCurso.push(conteudoTemp);
+        novoConteudo = prompt("Deseja cadastrar um novo contepudo para o curso? [S]im/ [N]ao", "Digite aqui");
+    }
+
+    console.clear();
+    console.log("Codigo:" + codigoCurso);
+    console.log("Curso:" + nomeCurso);
+    console.log("Curso:" + nomeCurso);
+    console.log ("Conteudo:");
+    while(contador < conteudoCurso.length) {
+        console.log(conteudoCurso[contador]);
+        contador++;
+    }
