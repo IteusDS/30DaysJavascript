@@ -88,7 +88,7 @@ var animais = new Array(4);
     console.clear();
     console.log("Obrigado"); */
 
-    /*Aula 19 */
+    /*Aula 19 
     var nomeCurso =  prompt("Informe o nome do curso", "Digite aqui");
     var codigoCurso = prompt("Informe o código do curso", "Digite aqui");
     var novoConteudo = "S";
@@ -110,4 +110,12 @@ var animais = new Array(4);
     while(contador < conteudoCurso.length) {
         console.log(conteudoCurso[contador]);
         contador++;
+    } */
+
+
+    /* Missão 20 */
+
+    var alunos = ["Maria", "Rose", "Claudio",  "Renata" ];
+    for(contador = 0; contador< 4; contador++){
+        console.log(alunos[contador]);
     }
